@@ -24,7 +24,7 @@
     <form action="validate.php" method="post">
         <tr>
             <th>Email</th>
-            <td><input type="text" name="email"></td>
+            <td><input type="text" name="email" id="email"></td>
         </tr>
         <tr>
             <th>Password</th>
@@ -40,3 +40,11 @@
 </table>
 </body>
 </html>
+
+<?php
+if (isset($_COOKIE['email'])) {
+    $email = $_COOKIE['email'];
+
+    echo "<script>document.getElementById('email').value = '$email';</script>";
+}
+?>
