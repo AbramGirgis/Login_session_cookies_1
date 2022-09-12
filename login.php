@@ -20,7 +20,7 @@
 <body>
 <!--Adding the Form in a table-->
 <table cellpadding="5" cellspacing="10" align="center" border="1">
-    <h3>Login From using session and cookies with 'Remember me' feature</h3>
+    <h3>Login From using session and cookies with 'Remember Me' feature</h3>
     <form action="validate.php" method="post">
         <tr>
             <th>Email</th>
