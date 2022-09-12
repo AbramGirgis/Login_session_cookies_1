@@ -1,3 +1,3 @@
 # Login PHP
 
-## using session and cookies
+### using session and cookies
