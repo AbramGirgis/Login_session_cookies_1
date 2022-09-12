@@ -1,7 +1,3 @@
-### Login using PHP
+# Login PHP
 
-## ddd
-
-# ddd
-
-dcfd
+## using session and cookies
