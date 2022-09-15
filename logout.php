@@ -2,7 +2,7 @@
 session_start();
 session_reset();
 session_destroy();
-// To destroy the cookie:
+// If I want to destroy the cookie on logging out:
 //if (isset($_COOKIE['email'])) {
 //    $email = $_COOKIE['email'];
 //    setcookie('email',$email,time()-1);
