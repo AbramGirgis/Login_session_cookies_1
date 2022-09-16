@@ -1,4 +1,5 @@
 <?php
 session_start();
-echo "Welcome " . $_SESSION['name'] ." Your email is: ".$_SESSION['email'];
+echo "Welcome <span><strong>" . $_SESSION['name'] . "</strong></span>
+<br>Your email is: <span><strong>" . $_SESSION['email'] . "</strong></span>";
 echo "<br><br><a href='logout.php'>Logout</a>";
