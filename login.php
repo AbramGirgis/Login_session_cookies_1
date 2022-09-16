@@ -15,7 +15,7 @@
             text-align: center;
         }
     </style>
-    <title>Document</title>
+    <title>Login Page</title>
 </head>
 <body>
 <!--Adding the Form in a table-->
